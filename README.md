@@ -7,7 +7,7 @@ Mostly I made it for myself ^__^. Cause functionality is simple, but I absolutel
 
 ## Architecture
 
-![Architecture](article_materials/architecture.jpg)
+![Architecture](article_materials/img_architecture.jpg)
 
 **FSM:** main lifetime loop.
 
@@ -32,7 +32,7 @@ Raunds collect to list and form graphs: "Day graph" - list of Raunds, "Week grap
 
 **Table structure:**
 
-![Table](article_materials/table.jpg)
+![Table](article_materials/img_table.jpg)
 
 
 **Converting Raunds for table:**
