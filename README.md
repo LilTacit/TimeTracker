@@ -28,7 +28,7 @@ You may download execute archive and try it :)
 
 **Main entities:**
 * **Raund** - main data entity (struct), contain: DateTime, duration(int), title(string), description(string).
-* **DateTime** - main entity for time and date, contain: Date{day, month, year}(struct), Time{hour, minute, second}(struct), raw time for <ctime> routine and set of functions for seconds math and conversions.
+* **DateTime** - main entity for time and date, contain: Date{day, month, year}(struct), Time{hour, minute, second}(struct), raw time for *ctime* routine and set of functions for seconds math and conversions.
 
 Raunds collect to list and form graphs: "Day graph" - list of Raunds, "Week graph" - list of "Day graphs", "Month graph" - list of simplified Raunds (all names are conditional and don't use as entities in program).
 
@@ -47,11 +47,11 @@ Raunds collect to list and form graphs: "Day graph" - list of Raunds, "Week grap
 
 ## FSM
 
-Main loop based on statements. Via <istream> user select needed action(<State>), input is processing and change to selected <State> by key.
+Main loop based on statements. Via *istream* user select needed action(*State*), input is processing and change to selected *State* by key.
 
-Each *<State>* have:
+Each *State* have:
 * *name key*
-* *list of <State>* for change from current state
+* *list of State* for change from current state
 * *specific command* for activate selected State feature
 
 ![Show console menu](article_materials/cls_menu.gif)
@@ -59,7 +59,7 @@ Each *<State>* have:
 ## What I learn
 
 * FSM basic
-* Work with <ctime>
+* Work with *ctime*
 * C++ SQLite library
 
 
@@ -77,3 +77,4 @@ Each *<State>* have:
 * Extend raunds with title and description
 * Settings
 * Work statistic
+* Other calendar formats
