@@ -4,6 +4,8 @@ Program created for tracking work time, easy use - just start and stop tracking.
 
 Mostly I made it for myself ^__^. Cause functionality is simple, but I absolutely do not like all apps for Android, iOS, Windows. And I just decide made it yourself from scratch on pure C++, for now how console app.
 
+You may download execute archive and try it :)
+
 
 ## Architecture
 
