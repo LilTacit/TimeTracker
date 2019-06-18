@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Process">
+      <UniqueIdentifier>{110b6619-423e-46a2-9434-ec426733a8d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{dcb83b13-65d8-4a09-8689-00cacdcdaff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Statistic">
+      <UniqueIdentifier>{a3d2635d-63ee-4a06-9c4e-774084620946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data manage">
+      <UniqueIdentifier>{cede5f9a-386b-4559-941a-ad82ea4d926b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data entities">
+      <UniqueIdentifier>{b70ce35e-6cf9-40c7-8dd7-19a51fa6d999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data entities">
+      <UniqueIdentifier>{07280386-295f-4ffc-b324-7e935e518d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data manage">
+      <UniqueIdentifier>{7a8f0b71-4746-45f8-8bb0-9134da92423e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Process">
+      <UniqueIdentifier>{a6eedb42-f38f-40cd-8777-b06e7023fb8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statistic">
+      <UniqueIdentifier>{3ce263c9-c443-448e-af2a-adcbc7859e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{a1b2ac98-5e8a-48b8-a804-54ae9ef3e3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input process">
+      <UniqueIdentifier>{b83c88df-c78b-4129-a6ad-f3b660330bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input process">
+      <UniqueIdentifier>{1e03cac1-65ff-4be7-b204-a3d820fd984e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Header Files\Data entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Raund.h">
+      <Filter>Header Files\Data entities</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Header Files\Data manage</Filter>
+    </ClInclude>
+    <ClInclude Include="DbManager.h">
+      <Filter>Header Files\Data manage</Filter>
+    </ClInclude>
+    <ClInclude Include="RaundManager.h">
+      <Filter>Header Files\Data manage</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandCenter.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="DayGraphEditor.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="UserActionsContainer.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Agregator.h">
+      <Filter>Header Files\Statistic</Filter>
+    </ClInclude>
+    <ClInclude Include="UiManager.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlSpecification.h">
+      <Filter>Header Files\Data manage</Filter>
+    </ClInclude>
+    <ClInclude Include="DateChanger.h">
+      <Filter>Header Files\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="InputProcessor.h">
+      <Filter>Header Files\Input process</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandCenter.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="DayGraphEditor.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="UiManager.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Agregator.cpp">
+      <Filter>Source Files\Statistic</Filter>
+    </ClCompile>
+    <ClCompile Include="DbManager.cpp">
+      <Filter>Source Files\Data manage</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Source Files\Data manage</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>Source Files\Data entities</Filter>
+    </ClCompile>
+    <ClCompile Include="RaundManager.cpp">
+      <Filter>Source Files\Data manage</Filter>
+    </ClCompile>
+    <ClCompile Include="UserActionsContainer.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlSpecification.cpp">
+      <Filter>Source Files\Data manage</Filter>
+    </ClCompile>
+    <ClCompile Include="DateChanger.cpp">
+      <Filter>Source Files\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="InputProcessor.cpp">
+      <Filter>Source Files\Input process</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
