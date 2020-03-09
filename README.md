@@ -7,9 +7,7 @@ Mostly I made it for myself ^__^. Cause functionality is simple, but I absolutel
 You may download execute archive and try it :)
 
 
-## Architecture
-
-![Architecture](article_materials/img_architecture.jpg)
+## Main modules
 
 **FSM:** main lifetime loop.
 
